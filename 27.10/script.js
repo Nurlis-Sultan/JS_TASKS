@@ -1,15 +1,17 @@
 let city = prompt ('Stolica Kyrgyzstana?', '');
 if( city === 'Bishkek'){
     alert('Verno!')
+}else if(city == null){
+    alert('vhod otmenen')
 }else{
     alert('Ne znaete?')
 }
 
 let vizit = prompt('Kto prishel?');
 if (vizit === 'admin') {
-    password1 = prompt('password');
+    password1 = prompt('vvedite parol');
     if(password1 === 'chernyi vlastelin'){
-        alert ('welcome!');
+        alert ('Welcome');
     }else if(password1 == null){
         alert('vhod otmenen')
     }
