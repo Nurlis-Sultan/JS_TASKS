@@ -19,23 +19,18 @@ function Hello () {
 }
 alert(Hello());
 
-let number1 = 5
-
 function number (a) {
     return a*a*a;
 }
 let cub = 3
-alert(number(number1));
-
-// number1 = number(5);
-// alert(number1)
+alert(number(cub));
 
 
-function getName(qwerty = 'gost') {
-    return 'Privet' + qwerty
+
+function getName(text = 'gost') {
+    return 'Privet ' + name
 }
-
-let qwerty = 'Vasya';
+let name = 'Vasya';
 alert(getName())
 
 
